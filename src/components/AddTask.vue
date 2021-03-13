@@ -1,19 +1,19 @@
 <template>
   <form @submit="onSubmit" class="add-form">
     <div class="form-control">
-      <label>Was?</label>
-      <input type="text" v-model="text" name="text" placeholder="Gurken" />
+      <label>What do we need?</label>
+      <input type="text" v-model="text" name="text" placeholder="Cucumber" />
     </div>
     <div class="form-control">
-      <label>Wann?</label>
-      <input type="text" v-model="day" name="day" placeholder="Heute" />
+      <label>Until when?</label>
+      <input type="text" v-model="day" name="day" placeholder="Today" />
     </div>
     <div class="form-control form-control-check">
-      <label>Besorge ich</label>
+      <label>Got it</label>
       <input type="checkbox" v-model="reminder" name="reminder" />
     </div>
 
-    <input type="submit" value="Save Task" class="btn btn-block" />
+    <input type="submit" value="Save" class="btn btn-block" />
   </form>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header title="Einkaufsliste" @toggle-add-task="toggleAddTask" />
+    <Header title="Shopping List" @toggle-add-task="toggleAddTask" />
     <div v-show="showAddTask">
       <AddTask @add-task="addTask" />
     </div>
@@ -40,19 +40,19 @@ export default {
     this.tasks = [
       {
         id: 1,
-        text: "Doctor Appointment",
-        day: "March 1",
+        text: "Banana",
+        day: "Wednesday",
         reminder: false,
       },
       {
         id: 2,
-        text: " Appointment",
+        text: "Pineapple",
         day: "March 5 ",
         reminder: true,
       },
       {
         id: 3,
-        text: "Doctor ",
+        text: "Lemonade",
         day: "March 17",
         reminder: false,
       },
