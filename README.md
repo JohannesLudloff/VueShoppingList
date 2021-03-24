@@ -1,4 +1,4 @@
-# vue-task4
+# vue-shopping
 
 ## Project setup
 ```
